@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+  overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  color: #505962;
+}
+.offset:before {
+   display: block;
+   content: "";
+   height: 4rem;
+   margin-top: -4rem;
+}
+
+/*--Navigation--*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, 1)!important;
+}
+.navbar-brand img {
+  height: 2.5rem;
+  margin-left: 1.5rem;
+}
+.navbar-nav li {
+  padding-right: .7rem;
+  font-weight: 300;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #1ebba3;
+}
+
+/*--Start of landing page--*/
+.home-inner {
+  background-image: url(img/city.png);
+}
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 30%;
+  z-index: 1;
+  color: white;
+
+}
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+  text-transform: uppercase;
+  padding-right: 4.5rem;
+}
+.caption img {
+  padding-bottom: .5rem;
+  padding-right: .6rem;
+
+}
+.caption h3 {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 2.1rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.book {
+  border-width: medium;
+  border-radius: 7;
+  padding: .75rem 2rem;
+  margin-right: 3rem;
+  font-size: 1.1rem;
+  border-color: #F9735B;
+  text-transform: uppercase!important;
+}
+.book:hover {
+  background-color: #F9735B;
+  color: white;
+  border-color: #F9735B;
+  transform: translateY(1px);
+  filter: saturate(150%);
+  transition: .5s;
+}
+.get {
+  border-width: medium;
+  border-radius: 7;
+  padding: .75rem 2rem;
+  margin-left: 3rem;
+  font-size: 1.1rem;
+  border-color: #5CD06D;
+  background-color: #5CD06D;
+  color: black;
+  text-transform: uppercase!important;
+}
+.get:hover {
+  transform: translateY(1px);
+  filter: saturate(150%);
+  color: white;
+  border-color: #5CD06D;
+  background: none;
+  transition: .5s;
+  
+}
+.narrow img {
+  width: 100%;
+  height: 100%;
+}
+.safe{
+  color: #F9735B;
+  font-weight: 600;
+  
+}
+.space{
+  letter-spacing: .1rem;
+  padding-top: 2rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  padding-right: .3rem;
+  font-size: 1.5rem;
+}
+.italic {
+  font-style: italic;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+.pricing img {
+  width: 60%;
+  height: 60%;
+
+}
+
+
+
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 7;
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #5CD06D;
+  background-color: #5CD06D;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #5CD06D;
+  background-color: #5CD06D;
+  color: white;
+}
+.btn-primary {
+  border-width: medium;
+  border-radius: 7;
+  padding: .5rem 1rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 2rem!important;
+  border-color: #F9735B;
+  background: none;
+  color: #F9735B;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border-color: #F9735B;
+  background-color: #F9735B;
+  color: white;
+}
+.btn-last {
+  border-width: medium;
+  border-radius: 7;
+  padding: .6rem 1.5rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-right: 1.3rem!important;
+  border-color: #F9735B;
+  background-color: #F9735B;
+  color: white;
+}
+.btn-last:hover,
+.btn-last:focus {
+  border-color: black;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.feedback {
+  padding: 2rem 0 3.5rem;
+  background-color: rgb(213, 218, 223);
+  margin-bottom: 0;
+}
+/*=========Feature section=========*/
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #F9735B;
+  margin: 0 auto 2rem;
+}
+.feature svg.svg-inline--fa {
+  color: #F9735B;
+}
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+.feature p {
+  font-size: 1.1rem;
+}
+
+/*============ Resources section============*/
+.fixed {
+  background-image: url(img/Construction.png);
+  z-index: -1;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 7rem 2rem;
+}
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+.fixed-background p{
+  margin-top: 1.5rem;
+}
+
+/*============ Client section============*/
+.clients img {
+  width: 100%;
+  border-radius: 50%;
+}
+blockquote .svg-inline--fa {
+  color: #F9735B;
+  margin: 1rem;
+}
+.clients-hr {
+  border-top: .05rem solid #F9735B;
+}
+
+/*============ Footer section============*/
+
+footer {
+  color: white;
+  background-color: #474C53;
+  margin-top: 1rem;
+  padding: 2rem 0 2rem;
+}
+footer img {
+  height: 3rem;
+  margin: 1.5rem 0;
+}
+footer a {
+  color: white;
+}
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  margin: 1.2rem .5rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+  color: #5CD06D!important;
+}
+hr.socket {
+  width: 100%;
+  border-top: .1rem solid #F9735B;
+  margin-top: 3rem;
+}
+
+/*============ MEDIA QUERIES===========*/
+@media (max-width: 767px) {
+.caption h1 {
+  font-size: 2.3rem;
+  letter-spacing: .15rem;
+  padding-bottom: .5rem;
+  text-transform: uppercase;
+  padding-right: 4.5rem;
+}
+
+.caption h3 {
+  font-style: italic;
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+.book {
+  padding: .5rem 1rem;
+  margin-right: 3rem;
+  font-size: 1rem;
+  border-color: #F9735B;
+  text-transform: uppercase!important;
+}
+
+.get {
+  border-width: medium;
+  border-radius: 7; 
+  padding: .5rem 1rem;
+  margin-left: 3rem;
+  font-size: 1rem;
+  border-color: #5CD06D;
+  background-color: #5CD06D;
+  color: black;
+  text-transform: uppercase!important;
+}
+.narrow h1 {
+  font-size: 1.5rem;
+}
+.clients img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+
+}
+.pricing img {
+  width: 100%;
+  height: 100%;
+
+}
+.btn-last {
+  border-width: medium;
+  border-radius: 7;
+  padding: .4rem .9rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-right: 2rem!important;
+  border-color: #F9735B;
+  background-color: #F9735B;
+  color: white;
+}
+}
+
+@media (max-width: 991px) {
+.clients img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+
+}
+.btn-last {
+  border-width: medium;
+  border-radius: 7;
+  padding: .2rem .6rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-left: 2.3rem!important;
+  border-color: #F9735B;
+  background-color: #F9735B;
+  color: white;
+}
+}
+@media (max-width: 575px) {
+.btn-last {
+  border-width: medium;
+  border-radius: 7;
+  padding: .1rem .6rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-right: 2.3rem!important;
+  border-color: #F9735B;
+  background-color: #F9735B;
+  color: white;
+}
+}
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
